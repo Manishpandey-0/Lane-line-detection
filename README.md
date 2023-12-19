@@ -69,30 +69,30 @@ Output image <br />
 <a name="br19"></a> 
 
 ### Gaussian Smoothing
-Input image
-![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/0aa2fc5f-ba1a-4b82-8ce3-1b0b7f548181)
+Input image <br />
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/0aa2fc5f-ba1a-4b82-8ce3-1b0b7f548181) <br />
 
-Output image
+Output image <br />
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/4f50c8ba-5b2a-4382-8a86-9c5d1c538d82)
 
 
 <a name="br20"></a> 
 
 ### Canny Edge Detection
-Input image
-![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/c456d8c0-d9b9-42a6-b131-d030a5046f3f)
+Input image <br />
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/c456d8c0-d9b9-42a6-b131-d030a5046f3f) <br />
 
-Output image
+Output image <br />
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/9d595f99-3168-4615-be7f-b2058f009507)
 
 
 <a name="br21"></a> 
 
 ### Region Masking
-Input image
-![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/7899cf26-1448-4951-8a0e-86269c7c315c)
+Input image <br />
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/7899cf26-1448-4951-8a0e-86269c7c315c) <br />
 
-Output image
+Output image <br />
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/5eeaa834-9a97-4c1f-86f1-082415e9d6fd)
 
 
@@ -100,10 +100,10 @@ Output image
 <a name="br22"></a> 
 
 ### Hough Transform
-Input image
-![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/df50015c-6881-4210-9eca-e7602ce56818)
+Input image <br />
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/df50015c-6881-4210-9eca-e7602ce56818) <br />
 
-Output image
+Output image <br />
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/82b77c6b-6b6c-473b-9958-f115ca548297)
 
 
@@ -118,10 +118,10 @@ Output image
 
 ## Video Result
 
-Input video
+Input video <br />
 
 
-https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/dbfdbaad-ac24-4a6a-b188-f8dbb35aa1bf
+https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/dbfdbaad-ac24-4a6a-b188-f8dbb35aa1bf <br />
 
 
 
@@ -129,7 +129,7 @@ https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/dbfdbaad-a
 
 <a name="br25"></a> 
 
-Output video
+Output video <br />
 
 
 https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/9181a691-32e7-4ed1-aa1f-d219febb99f8
