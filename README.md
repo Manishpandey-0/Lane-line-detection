@@ -12,7 +12,7 @@
 
 <a name="br2"></a> 
 
-##Introduction
+## Introduction
 
 1\.Lane Detection is a project that focuses on developing a system for accurate detection
 
@@ -39,7 +39,7 @@ contributing to the advancement of autonomous vehicle technology.
 
 <a name="br4"></a> 
 
-##Lane Detection Pipeline
+## Lane Detection Pipeline
 
 1\.Gray Scale
 
@@ -56,9 +56,9 @@ contributing to the advancement of autonomous vehicle technology.
 
 <a name="br18"></a> 
 
-Pipeline Outputs
+## Pipeline Outputs
 
-###Gray scaling
+### Gray scaling
 Input image
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/c5a438bd-a3bb-48df-8fcf-5e531766f436)
 Output image
@@ -68,7 +68,7 @@ Output image
 
 <a name="br19"></a> 
 
-###Gaussian Smoothing
+### Gaussian Smoothing
 Input image
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/0aa2fc5f-ba1a-4b82-8ce3-1b0b7f548181)
 
@@ -78,7 +78,7 @@ Output image
 
 <a name="br20"></a> 
 
-###Canny Edge Detection
+### Canny Edge Detection
 Input image
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/c456d8c0-d9b9-42a6-b131-d030a5046f3f)
 
@@ -88,7 +88,7 @@ Output image
 
 <a name="br21"></a> 
 
-###Region Masking
+### Region Masking
 Input image
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/7899cf26-1448-4951-8a0e-86269c7c315c)
 
@@ -99,7 +99,7 @@ Output image
 
 <a name="br22"></a> 
 
-###Hough Transform
+### Hough Transform
 Input image
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/df50015c-6881-4210-9eca-e7602ce56818)
 
@@ -109,14 +109,14 @@ Output image
 
 <a name="br23"></a> 
 
-###Final Output
+### Final Output
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/b5ada15c-5292-40c1-b684-37ba7ff372ba)
 
 
 
 <a name="br24"></a> 
 
-##Video Result
+## Video Result
 
 Input video
 
