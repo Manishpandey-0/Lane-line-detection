@@ -36,27 +36,6 @@ contributing to the advancement of autonomous vehicle technology.
 
 
 
-<a name="br3"></a> 
-
-Importance of Lane Detection in Autonomous
-
-Driving Systems:
-
-• Autonomous vehicles rely heavily on computer vision and sensor
-
-technologies to perceive the environment and make informed
-
-decisions.
-
-• Lane detection enables autonomous vehicles to stay within
-
-designated lanes.
-
-• Accurate lane detection improves vehicle safety, reduces accidents,
-
-and enhances overall driving experience.
-
-
 
 <a name="br4"></a> 
 
@@ -75,264 +54,78 @@ Lane Detection Pipeline
 6\.Draw Lines [Mark Lane Lines with different Color]
 
 
-
-<a name="br5"></a> 
-
-**Gray scaling**
-
-• Processing of single channel is faster that three channel
-
-processing.
-
-0 to 355
-
-0 to 255
-
-3 channel
-
-1 channel
-
-
-
-<a name="br6"></a> 
-
-Gaussian Smoothing
-
-• Noise can be defined as unnecessary
-
-information in a image or video.
-
-• Reducing the noise with Gaussian filter by
-
-modify the value of the pixels to the average
-
-values of the pixels.
-
-• Smooth out the image before applying
-
-Canny edge detection so we do not detect
-
-faint edges
-
-
-
-<a name="br7"></a> 
-
-• Edge detection refers to process of identifying and
-
-locating sharp discontinuities in an Image.
-
-**Edge**
-
-**Detection**
-
-• Different methods:
-
-• Sobel Operator
-
-• Laplacian of Gaussian filter
-
-• Canny Edge Detection Algorithm
-
-• Why Canny edge detection is more optimal?
-
-• Less sensitive to noise
-
-• It removes streaking by using two thresholds high
-
-and low
-
-• Offers good localization of edges and utilizes
-
-gradient of the edge to generate thin edges
-
-
-
-<a name="br8"></a> 
-
-**Canny Edge Detection**
-
-**Algorithm:**
-
-• Smooth image with 2D gaussian :
-
-• Compute image gradient with sobel operator:
-
-• Find gradient magnitude at each pixel:
-
-• Find gradient orientation at each pixel:
-
-• Compute Laplacian along the gradient direction at each pixel:
-
-• Find zero crossings in Laplacian to find the edge location
-
-
-
-<a name="br9"></a> 
-
-Canny edge
-
-detection
-
-results
-
-
-
-<a name="br10"></a> 
-
-Region Masking
-
-• We want to narrow down our analysis to a section of the image. We use
-
-masking for this purpose.
-
-• We start by creating a blank mask with the same shape as the input
-
-image.
-
-• Create a polygonal mask over the vertices.
-
-• Apply the polygonal mask to the original image resulting in a masked
-
-image over the region of interest.
-
-
-
-<a name="br11"></a> 
-
-**Masking**
-
-**Process**
-
-
-
-<a name="br12"></a> 
-
-Difficulties for fitting approach
-
-• Extraneous data : Which points to fit to?
-
-• Incomplete data : Only parts of the image
-
-is
-
-visible
-
-• Noise
-
-**Solution: Hough Transform**
-
-
-
-<a name="br13"></a> 
-
-Hough Transform: Concept
-
-
-
-<a name="br14"></a> 
-
-Multiple Line detection
-
-
-
-<a name="br15"></a> 
-
-Better Parameterization
-
-• Issue:
-
-• Slope of the line could be very large or very small
-
-• More memory and computation
-
-• Solution:
-
-• Use
-
-• Orientation of θ is finite ,i.e. it is between 0<sup>o</sup> and 180<sup>0</sup>
-
-• Distance ρ is finite.
-
-
-
-<a name="br16"></a> 
-
-Better
-
-Parameterization
-
-
-
-<a name="br17"></a> 
-
-• We perform Hough Transform to detect line (lane) from a
-
-video
-
-Hough Transform
-
-
-
 <a name="br18"></a> 
 
 Pipeline Outputs
 
 Gray scaling
+Input image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/c5a438bd-a3bb-48df-8fcf-5e531766f436)
+Output image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/6a78c16b-3054-408c-9214-23b8d7b6c6f5)
 
 
 
 <a name="br19"></a> 
 
-Pipeline Outputs
-
 Gaussian Smoothing
+Input image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/0aa2fc5f-ba1a-4b82-8ce3-1b0b7f548181)
 
+Output image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/4f50c8ba-5b2a-4382-8a86-9c5d1c538d82)
 
 
 <a name="br20"></a> 
 
-Pipeline Outputs
-
 Canny Edge Detection
+Input image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/c456d8c0-d9b9-42a6-b131-d030a5046f3f)
 
+Output image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/9d595f99-3168-4615-be7f-b2058f009507)
 
 
 <a name="br21"></a> 
 
-Pipeline Outputs
-
 Region Masking
+Input image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/7899cf26-1448-4951-8a0e-86269c7c315c)
+
+Output image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/5eeaa834-9a97-4c1f-86f1-082415e9d6fd)
 
 
 
 <a name="br22"></a> 
 
-Pipeline Outputs
-
 Hough Transform
+Input image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/df50015c-6881-4210-9eca-e7602ce56818)
 
+Output image
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/82b77c6b-6b6c-473b-9958-f115ca548297)
 
 
 <a name="br23"></a> 
 
 Final Output
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/b5ada15c-5292-40c1-b684-37ba7ff372ba)
 
 
 
 <a name="br24"></a> 
 
-Input
-
-video
+Input video
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/03dbb1d3-cdb1-44ee-b102-29443d2b4db3)
 
 
 
 <a name="br25"></a> 
 
-Output
+Output video
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/ffe66905-6e8f-4c11-9bd9-a5afd4e13bda)
 
-video
 
 
 
