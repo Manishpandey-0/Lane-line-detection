@@ -121,7 +121,7 @@ Output image <br />
 Input video <br />
 
 
-https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/dbfdbaad-ac24-4a6a-b188-f8dbb35aa1bf <br />
+https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/dbfdbaad-ac24-4a6a-b188-f8dbb35aa1bf
 
 
 
