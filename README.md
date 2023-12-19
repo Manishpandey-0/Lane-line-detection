@@ -117,14 +117,23 @@ Final Output
 <a name="br24"></a> 
 
 Input video
-![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/03dbb1d3-cdb1-44ee-b102-29443d2b4db3)
+
+
+https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/dbfdbaad-ac24-4a6a-b188-f8dbb35aa1bf
+
+
 
 
 
 <a name="br25"></a> 
 
 Output video
-![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/ffe66905-6e8f-4c11-9bd9-a5afd4e13bda)
+
+
+https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/9181a691-32e7-4ed1-aa1f-d219febb99f8
+
+
+
 
 
 
