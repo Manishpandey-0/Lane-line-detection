@@ -32,9 +32,9 @@ lanes and make informed decisions.
 
 where precise lane tracking is essential for ensuring safe and efficient navigation,
 
-contributing to the advancement of autonomous vehicle technology.
-
-
+contributing to the advancement of autonomous vehicle technology.\
+\
+\
 
 
 <a name="br4"></a> 
@@ -53,15 +53,16 @@ contributing to the advancement of autonomous vehicle technology.
 
 6\.Draw Lines [Mark Lane Lines with different Color]
 
-
+\
+\
 <a name="br18"></a> 
 
 ## Pipeline Outputs
 
-### Gray scaling
-Input image
-![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/c5a438bd-a3bb-48df-8fcf-5e531766f436)
-Output image
+### Gray scaling\
+Input image\
+![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/c5a438bd-a3bb-48df-8fcf-5e531766f436) \
+Output image\
 ![image](https://github.com/Manishpandey-0/Lane-line-detection/assets/65527099/6a78c16b-3054-408c-9214-23b8d7b6c6f5)
 
 
